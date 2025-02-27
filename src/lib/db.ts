@@ -1,5 +1,6 @@
 import mongoose from "mongoose";
 const MONGOURI = process.env.MONGOURI!;
+console.log(MONGOURI);
 
 if(!MONGOURI){
     throw new Error("MONGOURI is not provided");
